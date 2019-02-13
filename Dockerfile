@@ -1,6 +1,4 @@
-FROM phusion/baseimage
-
-ENV DISABLE_CRON=1
+FROM phusion/baseimage:0.11
 
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
