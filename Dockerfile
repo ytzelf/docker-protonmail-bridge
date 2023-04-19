@@ -5,7 +5,7 @@ FROM shenxn/protonmail-bridge
 
 # Install pip
 RUN apt-get update \
-    && apt-get -qq install python3-distutils \
+    && apt-get -qq install python3-distutils curl \
     && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && python3 get-pip.py
 
