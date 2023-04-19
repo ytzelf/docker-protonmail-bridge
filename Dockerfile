@@ -1,7 +1,7 @@
-FROM phusion/baseimage:0.11
+FROM shenxn/protonmail-bridge
 
 # Use baseimage-docker's init system.
-CMD ["/sbin/my_init"]
+# CMD ["/sbin/my_init"]
 
 # Install pip
 RUN apt-get update \
